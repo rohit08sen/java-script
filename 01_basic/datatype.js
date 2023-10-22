@@ -1,6 +1,7 @@
 "use strict"; //treat all JS code newer version
 
 // alert(3+3); we are using nodejs,not browser
+// different type of datatype
 
 // number=> 2^52
 // bigint

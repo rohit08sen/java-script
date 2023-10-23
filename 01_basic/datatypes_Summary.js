@@ -23,3 +23,26 @@ const myFunction = function(){//Data Type is Function
 }
 
 //dataType of null is OBJECT.
+
+//**********************************************//
+//Stack (Primitive), Heap(non-primitive)
+
+let myName="Rohit";
+let anotherName=myName;
+anotherName="omm";
+console.log(myName);
+console.log(anotherName);//It will copy 
+
+
+let user1={
+    email:"riodc678@gmail",
+    upi:"hello@ybl",
+}
+
+let user2=user1;
+user2.email="Rohit@google.com";
+
+console.log(user1.email);//Reference will be taken
+console.log(user2.email);
+
+

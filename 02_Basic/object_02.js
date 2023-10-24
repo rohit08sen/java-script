@@ -57,3 +57,26 @@ console.log(Object.values(tinderUser));//[ '123rfg', 'rohit' ]
 console.log(Object.entries(tinderUser));//[ [ 'id', '123rfg' ], [ 'name', 'rohit' ] ]
 
 console.log(tinderUser.hasOwnProperty("name"));//To check whether property is present or not.
+
+//*******************Destructuring************************/
+
+const course={
+    coursename:"js in hindi",
+    price:"999",
+    courseinstructor:"Rohit"
+}
+
+const {courseinstructor}=course;
+console.log(courseinstructor);//Rohit not need to type course.courseinstructor
+//*******************json**************** */
+// {
+//     "name":"rohit",
+//     "coursename":"werty",
+//     "price":"678"
+// }//api as object
+
+[
+    {},
+    {},
+    {}
+]//api can be written as array
